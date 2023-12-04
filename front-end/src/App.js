@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 
 const Restaurant = ({ name, location, chef, awards, ambiance, sustainability, events, online_presence, menu }) => (
   <div className="restaurant">
