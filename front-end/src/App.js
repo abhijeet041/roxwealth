@@ -96,41 +96,6 @@ const App = () => {
     return <div>Loading...</div>;
   }
 
-//   return (    <div className="restaurant-container">
-  
-//     <div key="123" className="restaurant-item">
-//       <h1>{restaurantData.name}</h1>
-//       <p>{restaurantData.location.address}</p>
-//       <p>{restaurantData.chef.bio}</p>
-//       <p>{restaurantData.ambiance.description}</p>
-//       {/* <p>{restaurantData.sustainability}</p>
-//       <p>{restaurantData.events}</p>
-//       <p>{restaurantData.onlinePresence}</p>
-//       <h2>Menu</h2> */}
-//       {/* {restaurantData.menu.categories.map((category) => (
-//         <div key={category.name}>
-//           <h3>{category.name}</h3>
-//           <ul>
-//             {category.items.map((item) => (
-//               <li key={item.name}>
-//                 <h4>{item.name}</h4>
-//                 <p>{item.description}</p>
-//                 <p>{`Price: ${item.price}`}</p>
-//                 <p>Ingredients: {item.ingredients.join(', ')}</p>
-//                 <p>
-//                   Nutritional Info: Calories: {item.nutritionalInfo.calories},
-//                   Protein: {item.nutritionalInfo.protein},
-//                   Carbohydrates: {item.nutritionalInfo.carbohydrates},
-//                   Fat: {item.nutritionalInfo.fat}
-//                 </p>
-//                 <p>Seasonal Availability: {item.seasonalAvailability.join(', ')}</p>
-//               </li>
-//             ))}
-//           </ul>
-//         </div>
-//       ))} */}
-//     </div>
-// </div>);
 
 return (<Restaurant {...restaurantData}></Restaurant>)
 };
